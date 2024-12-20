@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #545454;
+  --secondary-color: #1f1f1f;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: var(--primary-color);
+  background-color: rgb(252, 252, 252);
+}
+.logo {
+  width: 120px;
+}
+.nav-link {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+h1 {
+  font-weight: 500;
+  font-size: 70px;
+  color: var(--secondary-color);
+}
+.about .about-us {
+  font-size: 24x;
+  line-height: 32.12px;
+}
+
+.about ul li p {
+  font-weight: 400;
+  font-size: 50px;
+}
+.design {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.design::before {
+  position: absolute;
+  content: "";
+  border: 2px solid var(--secondary-color);
+  width: 200px;
+  height: 180px;
+  top: -2rem;
+  left: 3rem;
+  border-radius: 5px;
+  z-index: -1;
+}
+.design img {
+  width: 80%;
+}
+.design::after {
+  position: absolute;
+  content: url(../imgs/Arrow\ 1.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  bottom: -1.5rem;
+  right: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  z-index: 1;
+}
+h2,
+h3 {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+h2 {
+  font-size: 50px;
+}
+
+.our-designs img {
+  width: 100%;
+}
+.more-designs {
+  color: var(--secondary-color);
+}
+.more-designs li {
+  border-bottom: 1px solid #dadada;
+}
+.more-designs i {
+  font-size: 30px;
+}
+.steps p {
+  margin-top: 0;
+}
+.img-container img {
+  margin-bottom: 1rem;
+}
+.testimonials {
+  height: fit-content;
+}
+.testimonials-cards {
+  background-color: rgb(252, 252, 252);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.opinions-navs img {
+  cursor: pointer;
+}
+.card {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.author-opinion p {
+  font-size: 1em;
+  line-height: 39.65px;
+}
+
+.author-info img {
+  border-radius: 50%;
+}
+.author-info h4 {
+  font-size: 20px;
+}
+.author-info p {
+  color: var(--primary-color);
+}
+.subscribe h2 {
+  font-size: 45px;
+}
+.subscribe p {
+  font-size: 20px;
+  line-height: 39px;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: #d1d1d1;
+  line-height: 25px;
+}
+footer h4 {
+  color: #ffffff;
+}
+footer li {
+  margin-bottom: 1rem;
+}
+.our-sites i {
+  padding: 5px;
+  background-color: #313131;
+  color: #fff;
+  margin: 6px;
+}
